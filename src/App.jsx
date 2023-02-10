@@ -1,13 +1,18 @@
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 //import './App.css'
 import Home from "./components/home";
-import Nev from "./components/nev";
+import SignUp from "./components/sign/signUp";
 function App() {
 
   return (
     <>
-    <Nev/>
-    <Home/>
+     <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route exact path="/signUp" element={<SignUp/>}/>
+      
+        </Routes>
+      </BrowserRouter>
   
     </>
   )

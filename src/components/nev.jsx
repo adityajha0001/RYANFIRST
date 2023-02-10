@@ -1,7 +1,7 @@
 const Nev = () => {
   return (
     <>
-      <nav className="px-4 py-4 bg-white border-gray-200">
+      <nav className="fixed  w-full mb-12 px-4 py-4 bg-white border-gray-200">
         <div className="container flex flex-wrap items-center justify-between mx-auto">
           <a href="#" className="flex items-center">
             <img

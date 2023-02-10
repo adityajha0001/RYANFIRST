@@ -13,7 +13,7 @@ const Header =()=>{
     };
     return(
     <>
-    <div className=" ">
+    <div className="pt-24">
     <div className="py-8 md:flex xl:flex justify-centrer 2xl:mx-64">
         <div className="xl:ml-8 2xl:ml-16" >
         <h1 className="text-5xl text-black px-4 md:mt-8 md:ml-4 xl:mt-12 xl:ml-8 2xl:text-6xl ">Content marketing made easy</h1>
@@ -30,7 +30,7 @@ const Header =()=>{
 
     <div className="mx-2 ">
         <h1 className="text-sm ml-4 md:ml-56 md:mt-12 lg:ml-72 lg:pl-12 xl:ml-96 xl:pl-24 2xl:pl-96" >2500+ BUSINESSES TRUST US WITH THEIR CONTENT</h1>
-        <div className="flex mx-8 gap-16 mt-4 md:mx-2 lg:ml-24 xl:ml-60 2xl:pl-64 2xl:ml-32">
+        <div className="flex mx-8 gap-16 mt-12 md:mx-2 lg:ml-24 xl:ml-60 2xl:pl-64 2xl:ml-32">
             <div className="md:flex md:gap-8 2xl:gap-32">
                 <h1 className="text-3xl font-bold my-2">facebook</h1>
                 <h1 className="text-3xl font-bold my-2">adobe</h1>
@@ -44,7 +44,7 @@ const Header =()=>{
         </div>
     </div>
 
-    <div className="mt-12">
+    <div className="mt-20">
      <h1 className=" mx-12 font-bold text-3xl md:text-5xl md:ml-20 xl:ml-64 lg:ml-28 2xl:pl-44   ">Different categories to drive your business goals</h1>
      <div>
         <Content1/>

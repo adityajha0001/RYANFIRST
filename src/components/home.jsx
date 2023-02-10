@@ -4,6 +4,7 @@ import Header from "./header";
 const Home =()=>{
     return(
         <>
+        <Nev/>
         <Header/>
         </>
     );

@@ -81,23 +81,65 @@ const Nev = () => {
                     className="py-2 text-sm text-white"
                     aria-labelledby="dropdownLargeButton"
                   >
-                    <li>
-                      <a href="#" className="block px-4 py-2 hover:bg-gray-500">
-                        Dashboard
+                    <li className="flex gap-4 block rounded-lg mx-4 py-2 hover:bg-gray-500">
+                      <img  width={60}
+                    height={40} className="rounded-lg ml-4" src="/images/penlogo.jpg"/>
+                    <div>
+                      <a href="#" className="font-bold">
+                       <h1>Writing</h1>
                       </a>
+                      <a href="#" className="text-xs pr-2">
+                        Get anything written form the cover letter or a reasorch cover.
+                      </a>
+                      </div>
                     </li>
-                    <li>
-                      <a href="#" className="block px-4 py-2 hover:bg-gray-500">
-                        Settings
+                    <li className="flex gap-4 block rounded-lg mx-4 py-2 hover:bg-gray-500">
+                      <img  width={60}
+                    height={40} className="rounded-lg ml-4" src="/images/prepro.png"/>
+                    <div>
+                      <a href="#" className="font-bold">
+                       <h1>Pre Production</h1>
                       </a>
+                      <a href="#" className="text-xs pr-2">
+                        Get anything written form the cover letter or a reasorch cover.
+                      </a>
+                      </div>
                     </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="block px-4 py-2 hover:bg-gray-500  "
-                      >
-                        Earnings
+                    <li className="flex gap-4 block rounded-lg mx-4 py-2 hover:bg-gray-500">
+                      <img  width={60}
+                    height={40} className="rounded-lg ml-4" src="/images/prepro.png"/>
+                    <div>
+                      <a href="#" className="font-bold">
+                       <h1>Post Production</h1>
                       </a>
+                      <a href="#" className="text-xs pr-2">
+                        Get anything written form the cover letter or a reasorch cover.
+                      </a>
+                      </div>
+                    </li>
+                    <li className="flex gap-4 block rounded-lg mx-4 py-2 hover:bg-gray-500">
+                      <img  width={60}
+                    height={40} className="rounded-lg ml-4" src="/images/penlogo.jpg"/>
+                    <div>
+                      <a href="#" className="font-bold">
+                       <h1>Video Editing</h1>
+                      </a>
+                      <a href="#" className="text-xs pr-2">
+                        Get anything written form the cover letter or a reasorch cover.
+                      </a>
+                      </div>
+                    </li>
+                    <li className="flex gap-4 block rounded-lg mx-4 py-2 hover:bg-gray-500">
+                      <img  width={60}
+                    height={40} className="rounded-lg ml-4" src="/images/penlogo.jpg"/>
+                    <div>
+                      <a href="#" className="font-bold">
+                       <h1>Writing</h1>
+                      </a>
+                      <a href="#" className="text-xs pr-2">
+                        Get anything written form the cover letter or a reasorch cover.
+                      </a>
+                      </div>
                     </li>
                   </ul>
                   <div className="py-1">
